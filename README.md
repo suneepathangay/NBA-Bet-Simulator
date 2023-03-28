@@ -7,3 +7,7 @@ Initially we reverse engineered an NBA API to get the upcoming matches. However 
 
 After waiting for a day, the user will be able to request the payout and a message will be displayed on the page whether the won or lost the bet along with the money, they recieved or lost from the bet.
 
+Things We Might Add:
+
+We might improve the user authentication by directly signing in with Google. 
+

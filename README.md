@@ -3,11 +3,10 @@ App to helping gambling addicts recover though simulated sports betting. Fronten
 
 How The Program Works
 
-Initially we reverse engineered an NBA API to get the upcoming matches. However we switched a prebuilt RAPID API for consistent data. The user would login/signup and a Firebase uid would be assigned to the user. The uid, matchup,bet, and odds would be written to a sqlite datbase through the Flask Python backend. In the methods file are the functions used to write/read/process the JSON data from the database. Additionally, the functions to determine, the winner of the matchup are included. 
-
-After waiting for a day, the user will be able to request the payout and a message will be displayed on the page whether the won or lost the bet along with the money, they recieved or lost from the bet.
+This was a project me and Shoumik started a while ago. However, it was completely redone. Firstly, the UI/UX was completely redone. Secondly, I cancelled all of our prebuilt API's from RapidApi and started rebuilding this from ground up. Instead of using the prebuilt API's the NBA API(can be found under the API folder) were reverse engineered to bet the current games of the week. The Draft Kings API was also reverse engineered to get the odds of each matchup. The NBA API was then reversed again to get the outcome of the matchup.
+The tech was still the same as we used React.js/Next.js for the frontend and Flask for the backend.
 
 Things We Might Add:
 
-We might improve the user authentication by directly signing in with Google. 
+We might improve the user authentication by directly signing in with Google.
 

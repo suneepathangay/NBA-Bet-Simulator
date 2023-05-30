@@ -9,3 +9,6 @@ The tech was still the same as we used React.js/Next.js for the frontend and Fla
 Update:
 Fully finished the app. Included popup for direct google sign in/sign up authentication
 
+
+
+
